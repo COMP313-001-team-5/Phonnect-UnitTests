@@ -20,9 +20,9 @@ public class UnitTest1 {
 		String baseUrl = "https://phongstagram.herokuapp.com/";
 		driver.get(baseUrl);
 		
-		driver.findElement(By.xpath("//body/div[@id='root']/div[2]/div[1]/div[2]/a[1]")).click();
-		driver.findElement(By.xpath("//body/div[@id='root']/div[3]/div[1]/input[1]")).sendKeys("vuhieuphong99@gmail.com");
-		driver.findElement(By.xpath("//body/div[@id='root']/div[3]/div[1]/input[2]")).sendKeys("yadech99");
+		driver.findElement(By.xpath("//body/div[@id='root']/div[4]/div[1]/input[1]")).sendKeys("vuhieuphong99@gmail.com");
+		driver.findElement(By.xpath("//body/div[@id='root']/div[4]/div[1]/input[2]")).click();
+		driver.findElement(By.xpath("//body/div[@id='root']/div[4]/div[1]/input[2]")).sendKeys("yadech99");
 		driver.findElement(By.xpath("//button[contains(text(),'Sign In')]")).click();
 
 		driver.findElement(By.xpath("//i[contains(text(),'forum')]")).click();
